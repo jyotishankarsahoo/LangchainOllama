@@ -1,0 +1,49 @@
+# Core LangChain packages
+langchain>=1.0.3
+langchain-core>=1.0.3
+langchain-community>=0.4.1
+
+# LangChain Hub (for prompt templates)
+langchainhub>=0.1.21
+
+# LLM Integrations
+langchain-ollama>=1.0.0
+langchain-openai>=1.0.2
+
+# Vector Stores
+langchain-chroma>=1.0.0
+chromadb>=1.3.4
+
+# Document Loaders
+pypdf>=6.1.3
+
+# Text Splitting
+langchain-text-splitters>=1.0.0
+
+# Environment Variables
+python-dotenv>=1.0.1
+
+# Testing and Evaluation Frameworks
+ragas>=0.2.6
+deepeval>=1.5.3
+
+# Agent Tools - Community Integrations
+wikipedia>=1.4.0
+playwright>=1.49.0
+
+# Async Support
+nest-asyncio>=1.6.0
+
+# Data Processing
+pandas>=2.2.3
+
+# Output Parsing
+pydantic>=2.9.2
+
+# HTTP Requests (for tools)
+httpx>=0.27.2
+
+# Additional utilities
+numpy>=2.1.3
+typing-extensions>=4.12.2
+lxml>=6.0.2
