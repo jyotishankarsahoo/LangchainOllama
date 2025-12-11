@@ -47,7 +47,7 @@ def get_session_info(session_id):
     This function is used as the `get_session_history` callback in LangChain.
     """
     return SQLChatMessageHistory(session_id=session_id, 
-                                 connection_string="sqlite:///chatDatabase.db")
+                                 connection=DATABASE_CONNECTION_STRING)
 
 def invoke_history(prompt, session_id, role):
     """
